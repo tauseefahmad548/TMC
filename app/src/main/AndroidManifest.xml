@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -19,6 +19,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".activity.PersonnelInfo"
+            android:label="@string/title_activity_personnel_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.TurnInDemandActivity"
+            android:label="@string/title_activity_turn_in_demand"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

@@ -35,24 +35,12 @@ class Personnel {
     private val phonePrimary: String? = null
     @ColumnInfo(name = "phone_secondary")
     private val phoneSecondary: String? = null
-    @ColumnInfo(name = "last_name")
-    private val lastName: String? = null
-    @ColumnInfo(name = "last_name")
-    private val lastName: String? = null
-    @ColumnInfo(name = "last_name")
-    private val lastName: String? = null
-    @ColumnInfo(name = "last_name")
-    private val lastName: String? = null
-    @ColumnInfo(name = "last_name")
-    private val lastName: String? = null
-    @ColumnInfo(name = "last_name")
-    private val lastName: String? = null
-    @ColumnInfo(name = "last_name")
-    private val lastName: String? = null
-    @ColumnInfo(name = "last_name")
-    private val lastName: String? = null
-    @ColumnInfo(name = "last_name")
-    private val lastName: String? = null
+    @ColumnInfo(name = "cnic")
+    private val cnic: String? = null
+    @ColumnInfo(name = "service_card_number")
+    private val serviceCardNumber: String? = null
+    @ColumnInfo(name = "living_status")
+    private val livingStatus: String? = null
 
     // Getters and setters are ignored for brevity,
     // but they're required for Room to work.
