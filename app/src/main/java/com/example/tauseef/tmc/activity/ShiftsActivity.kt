@@ -28,13 +28,13 @@ class ShiftsActivity : AppCompatActivity() {
         bottomListRecyclerView.layoutManager = bottomListLayoutManager
 
         val morningDutiesList: RecyclerView = include2.shift_section_reycler_ciew
-        val afternoonDutiesList: RecyclerView = include2.shift_section_reycler_ciew
-        val nightDutiesList: RecyclerView = include2.shift_section_reycler_ciew
-        val omLeaveList: RecyclerView = include2.shift_section_reycler_ciew
-        val hospitalDutiesList: RecyclerView = include2.shift_section_reycler_ciew
-        val GCrewDutiesList: RecyclerView = include2.shift_section_reycler_ciew
-        val tempDutiesList: RecyclerView = include2.shift_section_reycler_ciew
-        val securityDutiesList: RecyclerView = include2.shift_section_reycler_ciew
+        val afternoonDutiesList: RecyclerView = include.shift_section_reycler_ciew
+        val nightDutiesList: RecyclerView = include3.shift_section_reycler_ciew
+        val omLeaveList: RecyclerView = include4.shift_section_reycler_ciew
+        val hospitalDutiesList: RecyclerView = include5.shift_section_reycler_ciew
+        val GCrewDutiesList: RecyclerView = include6.shift_section_reycler_ciew
+        val tempDutiesList: RecyclerView = include7.shift_section_reycler_ciew
+        val securityDutiesList: RecyclerView = include8.shift_section_reycler_ciew
 
         morningDutiesList.adapter = bottomListAdapter
         afternoonDutiesList.adapter = bottomListAdapter
@@ -62,6 +62,8 @@ class ShiftsActivity : AppCompatActivity() {
         GCrewDutiesList.setOnDragListener(ShiftsDragListener())
         tempDutiesList.setOnDragListener(ShiftsDragListener())
         securityDutiesList.setOnDragListener(ShiftsDragListener())
+
+
 
 
     }

@@ -1,5 +1,6 @@
 package com.example.tauseef.tmc.adapter
 
+import android.content.ClipData
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
@@ -19,6 +20,10 @@ class ShiftsBottomListAdapter (val personneList:List<Array<String>>): RecyclerVi
     override fun onBindViewHolder(holder: ShiftsBottomListAdapter.VH, position: Int) {
         holder.shiftslistItemRankTextView.setText(personneList.get(position)[0])
         holder.shiftsListItemNameTextView.setText(personneList.get(position)[1])
+        holder.view.setOnLongClickListener(){v ->
+            val item: ClipData.Item = ClipData.Item(holder.shiftslistItemRankTextView.text)
+            val clipdata:ClipData = ClipData(null,item)
+            v.startDrag(clipdata,View.DragShadowBuilder(holder.view),null,0)}
     }
 
     class VH(val view: View) : RecyclerView.ViewHolder(view) {
