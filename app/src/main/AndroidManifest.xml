@@ -27,10 +27,13 @@
             android:name=".activity.TurnInDemandActivity"
             android:label="@string/title_activity_turn_in_demand"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".activity.ShiftsActivity" />
+        <activity
+            android:name=".activity.ShiftsActivity"
+            android:exported="true"></activity>
         <activity
             android:name=".activity.SettingsActivity"
             android:label="@string/title_activity_settings"></activity>
+
     </application>
 
 </manifest>
