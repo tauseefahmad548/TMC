@@ -26,8 +26,8 @@ class ShiftsBottomListAdapter (val personneList:List<Array<String>>): RecyclerVi
         val shiftsListItemNameTextView: TextView
 
         init {
-            shiftslistItemRankTextView = view.findViewById(R.id.action_image);
-            shiftsListItemNameTextView = view.findViewById(R.id.action_image);
+            shiftslistItemRankTextView = view.findViewById(R.id.shifts_list_item_name_text_view);
+            shiftsListItemNameTextView = view.findViewById(R.id.shifts_list_item_rank_text_view);
         }
     }
 }
