@@ -19,7 +19,7 @@ import com.example.tauseef.tmc.R
 import kotlinx.android.synthetic.main.activity_personnel_info.*
 import kotlinx.android.synthetic.main.fragment_personnel_info.view.*
 
-class PersonnelInfo : AppCompatActivity() {
+class PersonnelInfoActivity : AppCompatActivity() {
 
     /**
      * The [android.support.v4.view.PagerAdapter] that will provide

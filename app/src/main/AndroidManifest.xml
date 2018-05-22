@@ -20,7 +20,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.PersonnelInfo"
+            android:name=".activity.PersonnelInfoActivity"
             android:label="@string/title_activity_personnel_info"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
