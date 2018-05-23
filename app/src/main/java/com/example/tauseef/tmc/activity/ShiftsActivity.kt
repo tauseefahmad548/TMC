@@ -19,6 +19,9 @@ class ShiftsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_shifts)
+
+
+
         val bottomListLayoutManager: RecyclerView.LayoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
         val shiftsLayoutManager: RecyclerView.LayoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
         val bottomListAdapter: ShiftsBottomListAdapter = ShiftsBottomListAdapter(getDummyData());
