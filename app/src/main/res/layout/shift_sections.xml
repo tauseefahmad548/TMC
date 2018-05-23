@@ -5,7 +5,14 @@
     android:layout_height="match_parent"
     app:layout_constraintHorizontal_weight="1"
     app:layout_constraintTop_toTopOf="parent">
-
+    <TextView
+        android:id="@+id/shift_secion_title_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
     <android.support.v7.widget.RecyclerView
         android:id="@+id/shift_section_reycler_ciew"
         android:layout_width="match_parent"
@@ -15,12 +22,5 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/shift_secion_title_text_view" />
 
-    <TextView
-        android:id="@+id/shift_secion_title_text_view"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        android:textAlignment="center"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent" />
+
 </android.support.constraint.ConstraintLayout>
